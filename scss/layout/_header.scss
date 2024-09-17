@@ -1,7 +1,7 @@
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px rgb(184, 174, 174) solid;
+  // border-bottom: 1px rgb(184, 174, 174) solid;
 }
 
 .header-position {
@@ -49,4 +49,8 @@
 
 .header__icon:hover {
     fill: rgb(154, 133, 39);
+}
+
+.header__link:hover .header__icon {
+  transform: scale(1.07);
 }
